@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin:400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700');
+body{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 18px;
+	color: #858A99;
+}
+.header-area.sticky {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+.header-area.sticky{
+	background-color: #fff !important;
+}
+
+.header-area.sticky .nav-link{
+color: #2C3142;
+}
+
+.header-area.sticky .nav-link:hover{
+color: #2C3142;
+}
+
+.header-area.sticky .active .nav-link{
+color: #2C3142;
+}
+
+.header-area.sticky .active .nav-link:hover{
+color: #2C3142;
+}
+
+.header-area.sticky .nav-link:hover::after{
+background-color: #2C3142;
+}
+
+.header-area.sticky .navbar-brand .d-block{
+	display: none !important;
+}
+
+.header-area.sticky .navbar-brand .d-none{
+	display: block !important;
+}
+
+#home{
+	padding-top: 10%;
+	position: relative;
+	background-color: #F9C81E;
+	color: #fff;
+}
+
+#home h1{
+	font-size: 120px;
+	font-weight: 500;
+}
+
+#home h2{
+	font-size: 40px;
+}
+
+#home p{
+	font-size: 20px;
+}
+
+#easy{
+	border-bottom: 1px solid #ddd;
+}
+
+.section{
+	padding: 7% 0;
+}
+
+.title{
+	font-size: 50px;
+	font-weight: 500;
+	color: #2C3142;
+}
+
+.subtitle{
+	font-size: 24px;
+	font-weight: 500;
+	color: #858a99;
+}
+
+.btn-app{
+	background-color: #fff;
+		color: #858A99 !important;
+	border-radius: 100px;
+	font-weight: 300;
+}
+
+.header-area.sticky .btn-app{
+	background-color: #2078DC;
+		color: #fff !important;
+
+}
+.header-area.sticky .btn-app:hover::after,
+.navbar-nav .nav-link.btn-app:hover::after{
+display: none;
+}
+
+#forecasting{
+	background-color: #fafafa;
+	padding: 20 0;
+}
+
+#forecasting img{
+	width: 70px;
+	padding: 30px 0;
+}
+
+#forecasting h3{
+	color: #2C3142;
+	font-size: 22px;
+}
+
+#forecasting p{
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.sol img{
+	width: 40px;
+}
+
+.lluvia img{
+	width: 40px;
+}
+
+#watch{
+	background-image: url(../img/Landing-Weathy/bg-sky.png);
+	background-repeat: repeat-x;
+}
+
+.img-80{
+	max-width: 80%;
+}
+
+.watches img{
+	max-width: 50%;
+}
+
+#apps{
+	background-image: url(../img/Landing-Weathy/bg-snow.png);
+	background-size: auto;
+	background-position: center;
+	background-repeat: repeat;
+	padding-bottom: 0;
+}
+
+#apps .subtitle{
+	color: #fff;
+	font-size:30px;
+	margin-top: 30%;
+}
+
+#apps .subtitle{
+	color: #fff;
+	font-size: 30px;
+	margin-top: 30%;
+}
+
+#apps{
+	color: #fff;
+}
+
+footer{
+	background-color: #2078dc;
+	color: #fff;
+	padding: 30px 0;
+}
+
+footer .fab{
+	width: 45px;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+	background-color: #fff;
+	color: #333;
+	border-radius: 100%;
+}
